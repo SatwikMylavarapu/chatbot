@@ -1,6 +1,6 @@
 Flask==2.2.3
 torch==2.1.0
 transformers==4.29.2
-requests
-streamlit
-Werkzeug>=2.2.2
+requests==2.32.3
+streamlit==1.41.1
+Werkzeug==2.2.2
