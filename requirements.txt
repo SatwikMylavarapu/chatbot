@@ -1,6 +1,6 @@
 Flask==2.2.3
-torch==2.1.0  # Make sure to specify the correct version
+torch==2.1.0
 transformers==4.29.2
 requests
 streamlit
-Werkzeug>=2.2.2  # Use the required compatible version
+Werkzeug>=2.2.2
