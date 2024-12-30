@@ -3,4 +3,4 @@ torch==2.1.0  # Make sure to specify the correct version
 transformers==4.29.2
 requests
 streamlit
-Werkzeug==2.0.3
+Werkzeug>=2.2.2  # Use the required compatible version
