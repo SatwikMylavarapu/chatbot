@@ -50,4 +50,5 @@ if __name__ == '__main__':
         bot_response = chat_with_bot(user_message)
         return jsonify({"response": bot_response})
 
-    app.run(debug=True)
+    # Explicitly bind to port 10000 for Render
+    app.run(debug=True, host='0.0.0.0', port=10000)
