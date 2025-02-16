@@ -3,7 +3,7 @@ import requests
 import asyncio
 import uuid
 
-# Backend API URL
+#the backend url can be the one we deployed in aws or somewhere else....
 BACKEND_URL = 'http://127.0.0.1:5000/chat'
 
 # Initialize session state for managing chats
